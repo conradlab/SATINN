@@ -1,2 +1,2 @@
-# TICAT
-Testis Image Classification and Analysis Tool
+# SATINN
+Software for Analysis of Testis Images with Neural Networks
