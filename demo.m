@@ -1,6 +1,5 @@
-% TICAT: Testis Image Classification and Analysis Tool
-%
-% This is a demo code for TICAT. It contains all steps necessary to
+% SATINN: Software for Analysis of Testis Images using Neural Nets%
+% This is a demo code for SATINN. It contains all steps necessary to
 % reproduce the results in Yang et al. 2022. Although the results discussed
 % in the manuscript are a culmination of multiple image sources, this demo
 % uses a single image set, MS36R1_SEC2B, which contributed to neural
