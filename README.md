@@ -24,7 +24,8 @@ Before you begin, check that you have the following folders and files:
  there to your current path.
 
  You also need to place your dataset folder (e.g. `MS36R1_SEC2B`) in the
- folder called `datasets`. 
+ folder called `datasets`. For processing additional data, use the same
+ format as the files shown.
 
  For the manuscript, we used the command line version of cellpose to
  segment all of our cell images, including the one used in demo.m. This
