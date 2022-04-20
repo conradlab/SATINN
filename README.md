@@ -12,12 +12,12 @@ The dataset can be download from Figshare at the following address:
 https://figshare.com/articles/dataset/MS36R1_SEC2B_rar/19619010
 
 Before you begin, check that you have the following folders and files:
- * A 'datasets' folder containing the 'MS36R1_SEC2B' dataset (see above)
+ * A `datasets` folder containing the `MS36R1_SEC2B` dataset (see above)
   This folder should then contain four images: Hoe, Hoe_cp_masks, Acta2,
    and Acrv1
- * A 'functions' folder containing 7 supplementary functions for use with
+ * A `functions` folder containing 7 supplementary functions for use with
    this demo.
- * The file 'cellnet_h-XXXXXX.mat', which contains the latest neural net
+ * The file `cellnet_h-XXXXXX.mat`, which contains the latest neural net
    created for cell classification.
  
  Be sure to add the `functions` folder to path, or move the functions
