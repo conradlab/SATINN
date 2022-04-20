@@ -31,8 +31,8 @@ Before you begin, check that you have the following folders and files:
  segment all of our cell images, including the one used in demo.m. This
  includes the settings (usually default) that allow exact reproduction:
 
-   python -m cellpose --dir <<your dir>> --pretrained_model cyto --chan 0
-   --save_tif --no_npy --use_gpu --batch_size 4
+     python -m cellpose --dir <<your dir>> --pretrained_model cyto --chan 0
+     --save_tif --no_npy --use_gpu --batch_size 4
 
  However, as Cellpose does take a while to execute on large images (ours
  is approximately 25000x25000), we have included the output of Cellpose
