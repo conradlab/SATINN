@@ -41,4 +41,10 @@ Before you begin, check that you have the following folders and files:
  For more info on Cellpose, including instructions for installation, see:
  http://www.cellpose.org.
 
+-
 
+The standalone SATINN App is currently in development. See the `/deploy`
+folder for more information. A subset of the above dataset is
+available for app testing purposes.
+
+https://figshare.com/articles/dataset/MS36R1_SEC2B_demo_rar/19822441
