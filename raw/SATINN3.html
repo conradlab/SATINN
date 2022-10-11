@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>SATINN Tubules Output Page</title>
+        <style>
+            .main {font-family:helvetica;font-size:12;}
+        </style>
+    </head>
+    <body>
+        <h2 style="font-family:helvetica">Tubule Outputs</h2>
+        <div class="main">
+            <p>The <b>data table</b> to the right is the primary output of this workflow. All other figures can be recreated using the input images, native segmentation (if applicable), and the data table. The preview only shows a small subset of the full table to reduce load times.</p>
+            <ul>
+                <li><b>Save</b> will save the full data table, as *.csv or *.txt.</li>
+            </ul>
+            <p>The bottom figures are samples that can be recreated using the inputs and data table. You can use this to verify the accuracy of segmentation and classification. Only segmented objects can be classified. Tubules were initially filtered with a generic size and circularity exclusion filter. If tubules are missing or inaccurate, it is usually due to low quality microscopy images, incorrect segmentation parameters, or unsuitable filtering.</p>
+            <ul>
+                <li><b>Segmentation image</b>. This is the output of native tubule segmentation, post-filtering. Cells must be contained in one of these tubules to be considered 'in-tubule' in the 'Cells' output tab.</li>
+                <li><b>Classification image</b>. Each tubule class is color coded based on the legend (far right). Each color represents the tubule class of the highest confidence.</li>
+                <li><b>Confidence distribution</b>. This is a normalized barplot of the confidence distributions (x-axis) for each tubule class (y-axis).</li>
+            </ul>
+        </div>
+    </body>
+</html>

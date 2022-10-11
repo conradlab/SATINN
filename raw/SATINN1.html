@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>SATINN Image Input Page</title>
+        <style>
+            .main {font-family:helvetica;font-size:12;}
+        </style>
+    </head>
+    <body>
+        <h2 style="font-family:helvetica">Input Instructions</h2>
+        <div class="main">
+            <p>Select the image channels you wish to analyze by clicking on the following buttons:</p>
+            <p><b>Required:</b></p>
+            <ul>
+                <li><b>Hoechst</b>: Nuclear signal required for cell classification.</li>
+                <li><b>ACTA2</b>: Actin-alpha channel required for tubule segmentation. This will be performed natively, using Otsu's method.</li>
+                <li><b>ACRV1</b>: Acrosomal vesicle channel required to assist tubule classification, and may be used for cell classification.</li>
+            </ul>
+            <p><b>Optional:</b></p>
+            <ul>
+                <li><b>Hoechst (Segmentation)</b>: User-specified cell segmentation image. If no image is specified here, cell segmetation will be performed natively.</li>
+                <li><b>ACTA2 (Segmentation)</b>: User-specified tubule segmentation image. If no image is specified here, tubule segmentation will be performed using native parameters and size and circularity filtering.</li> 
+            </ul>
+            <p>The dots next to each input channel will turn green when they have been imported successfully.</p>
+            <p>Next, choose the <b>neural network</b> you wish to use for cell classification. Pre-trained networks include the network used in the Yang et al., 2022 manuscript, or if you have created your own using Matlab's Deep Learning Toolbox, you may specify it by selecting Custom. If you choose this option, the file must be a .mat file that includes cell classification as the `net` variable. All other variables will be ignored.</p>
+            <p>Once you have selected the images and neural networks, click <b>Process</b>. It is recommended that you start with a small test image set, as large ones can take hours of processing time.</p>
+        </div>
+    </body>
+</html>
