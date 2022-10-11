@@ -5,11 +5,17 @@ This repository hosts code and UI for SATINN in Yang et al., 2022.
 
 See the `deploy` folder to download the Matlab-based app. A Matlab subscription is not required, though Matlab itself might still need to be downloaded.
 
+The SATINN UI contains a built-in cell classification neural network. However, the tubule classification netowrk is hosted separately and can be accessed using the Figshare link below. To use it in the SATINN app, in the Tubule stages pre-trained neural network drop-down, choose Custom and specify this file.
+
+Tubule neural network Matlab file: https://figshare.com/articles/dataset/Mouse_Tubule_Classification_Neural_Network_File/21313107
+
 A demo image dataset can be download from Figshare below, which can be used directly with either the app or the demo code. A subset of the dataset is also provided to reduce load times when testing the functionality of SATINN:
 
 Full: https://figshare.com/articles/dataset/MS36R1_SEC2B_rar/19619010
 
 Subsection: https://figshare.com/articles/dataset/MS36R1_SEC2B_demo_rar/19822441
+
+
 
 &nbsp;
 
