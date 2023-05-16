@@ -15,13 +15,13 @@ Navigate to the `deploy` folder in this repository to download the Matlab-based 
 
 Additionally, **all users** should download our most recent [demo data from Figshare](https://figshare.com/articles/dataset/SATINN_-_demo_files_and_neural_networks_r_230516_/22853645), which contains a sample test image as well as our pre-trained neural networks. In this RAR, the `datasets` and `neuralnets` folders should be extracted in the same directory as `SATINN.exe` as shown below.
 
-![Example Install](https://github.com/conradlab/SATINN/assets/43147040/8061e31a-2e24-434e-826f-afa4a9fd1590)
+![Example_Install](https://github.com/conradlab/SATINN/assets/43147040/8061e31a-2e24-434e-826f-afa4a9fd1590)
 
 ## Demo instructions
 
 Once SATINN is properly installed, running `SATINN.exe` should bring up the Inputs window that looks like this:
 
-![SATINN Inputs](https://github.com/conradlab/SATINN/assets/43147040/83b6a70d-f68a-4d23-958f-0af832ed5695)
+![SATINN_Inputs](https://github.com/conradlab/SATINN/assets/43147040/83b6a70d-f68a-4d23-958f-0af832ed5695)
 
 To try out our data:
 
@@ -33,6 +33,8 @@ To try out our data:
 * Tubule stage neural network - select `neuralnets/bf_tnetr-230314.mat`
 
 Then click Process. The rest is automated, and will take a few minutes. (On a 32 GB RAM computer, our dataset takes about 3 minutes to fully process.) Once the Process light turns green, you can view the results in the [Cell Outputs] and [Tubule Outputs] panels, as well as save the full datatables and more using the [Save...] option.
+
+![SATINN_Outputs](https://github.com/conradlab/SATINN/assets/43147040/d7804432-d470-4322-9285-9a121b411a56)
 
 Note: The SATINN App is still in development. Please report any app-breaking bugs by opening a New Issue.
 
