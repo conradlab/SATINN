@@ -1,7 +1,7 @@
 # SATINN
 Software for Analysis of Testis Images with Neural Networks
 
-This repository hosts the code and UI as described in [Yang et al., 2022](https://academic.oup.com/bioinformatics/article/38/23/5288/6754803).
+This repository hosts the code and UI as described for SATINN 1 in [Yang et al., 2022](https://academic.oup.com/bioinformatics/article/38/23/5288/6754803) and for SATINN 2 in Yang et al., 2024 (manuscript in preparation).
 
 &nbsp;
 
@@ -9,9 +9,9 @@ This repository hosts the code and UI as described in [Yang et al., 2022](https:
 
 Navigate to the `deploy` folder in this repository to download the Matlab-based app.
 
-* [Recommended] Users **with Matlab 2022a or newer** already installed on their device should download the contents of `for_redistribution_files_only`. No additional install is required.
+* [Recommended] Users **with Matlab R2023b or newer** already installed on their device should download the contents of `for_redistribution_files_only`. No additional install is required.
 * Users **without Matlab** should download the installer from `for_redistribution` and will need to install Matlab components.
-* Users **with an earlier Matlab release** should consider updating to at least *2023a* (not 2022a!) to ensure future compatibility, then follow the Recommended step above.
+* Users **with an earlier Matlab release** should consider updating to at least R2023b to ensure future compatibility, then follow the Recommended step above.
 
 Additionally, **all users** should download our most recent [demo data from Figshare](https://figshare.com/articles/dataset/SATINN_-_demo_files_and_neural_networks_r_230516_/22853645), which contains a sample test image as well as our pre-trained neural networks. In this RAR, the `datasets` and `neuralnets` folders should be extracted in the same directory as `SATINN.exe` as shown below.
 
@@ -42,7 +42,7 @@ Note: The SATINN App is still in development. Please report any app-breaking bug
 
 ## A note on cell segmentation
 
-If you wish to use SATINN on your own data, we strongly recommend augmenting your input by using Cellpose to perform cell segmentation. For the Yang 2022 manuscript, we used the command line version of Cellpose to process all of our images. This command uses the settings (usually default) that allow exact reproduction:
+If you wish to use SATINN on your own data, we strongly recommend augmenting your input by using Cellpose to perform cell segmentation. For the Yang et al. 2022 manuscript, we used the command line version of Cellpose to process all of our images. This command uses the settings (usually default) that allow exact reproduction:
 
      python -m cellpose --dir <<your dir>> --pretrained_model cyto --chan 0
      --save_tif --no_npy --use_gpu --batch_size 8 --flow_threshold 0
