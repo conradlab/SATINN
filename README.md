@@ -13,7 +13,7 @@ Navigate to the `deploy` folder in this repository to download the Matlab-based 
 * Users **without Matlab** should download the installer from `for_redistribution` and will need to install Matlab components.
 * Users with an earlier **Matlab release** should consider updating their Matlab version, then follow the Recommended step above.
 
-Additionally, **all users** should download our most recent [demo data from Figshare](https://figshare.com/articles/dataset/SATINN_-_demo_files_and_neural_networks_r_230516_/22853645), which contains sample test image(s) as well as pre-trained neural networks. Extract `datasets` and `neuralnets` to the same directory as `SATINN.exe`.
+Additionally, **all users** should download our most recent [demo data from Figshare](https://figshare.com/articles/dataset/SATINN_-_demo_files_and_neural_networks_r_230516_/22853645?file=65123532), which contains sample test image(s) as well as pre-trained neural networks. Extract `datasets` and `neuralnets` to the same directory as `SATINN.exe`.
 
 ![Example_Install](https://github.com/conradlab/SATINN/assets/43147040/8061e31a-2e24-434e-826f-afa4a9fd1590)
 
